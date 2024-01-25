@@ -1,0 +1,42 @@
+/* Home.css */
+
+.main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fill the video within the container, cropping if necessary */
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Set text color */
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  
+  .content:hover {
+    transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .content h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.5em; /* Adjust font size as needed */
+    margin: 0;
+  }
+  
+  /* You can add more styles for additional content as needed */
+  

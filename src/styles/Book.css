@@ -1,0 +1,85 @@
+.book-container {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-image: url('../assets/sun.png'); /* Change the path accordingly */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2a5db0;
+  }
+  
+  .total-books {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .book {
+    margin-top: 20px;
+  }
+  
+  .book-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: #4285f4;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .page-navigation {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
